@@ -745,7 +745,7 @@ h2{
     width: 100%;
     height: 100px;
     position: relative;
-    background-color:deeppink
+    background-color:deeppink 
 }
 
 .vidThumb2 img{
@@ -874,6 +874,7 @@ iframe{
     }
     main{
         margin-left: 0.5em;
+        width:70%;
     }
 
     .greeting{
@@ -952,4 +953,18 @@ iframe{
 
 }
 
+}
+
+/* **********1200********* */
+
+
+@media all and (min-width:1200px){
+
+main{
+    width: 80%;
+}
+
+header{
+    width: 20%;
+}
 }
